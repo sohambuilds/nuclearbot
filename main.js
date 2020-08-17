@@ -242,7 +242,7 @@ client.on ("message"  , async message  =>  {
              .setTimestamp()
              .setFooter('Dev: RLX | BlazingDragon' , 'https://i.imgur.com/5O2LozU.jpg')
              message.channel.send(klog)
-             client.channels.cache.get('727772378268172340').send(klog)
+             client.channels.cache.get('742395668362035211').send(klog)
 
 
 
@@ -307,7 +307,7 @@ client.on ("message"  , async message  =>  {
              .setTimestamp()
              .setFooter('Dev: RLX | BlazingDragon' , 'https://i.imgur.com/5O2LozU.jpg')
             message.channel.send(blog)
-            client.channels.cache.get('727772378268172340').send(blog)
+            client.channels.cache.get('742395668362035211').send(blog)
 
        }) .catch(err => {
             message.channel.send("Cannot ban this person")
@@ -360,7 +360,7 @@ client.on ("message"  , async message  =>  {
              .setTimestamp()
              .setFooter('Dev: RLX | BlazingDragon' , 'https://i.imgur.com/5O2LozU.jpg')
             message.channel.send(log);
-            client.channels.cache.get('727772378268172340').send(log)
+            client.channels.cache.get('742395668362035211').send(log)
         }).catch(err => {
             message.channel.send("Couldnt warn this user!")
             client.users.cache.get('324442848759906314').send(`Couldnt warn one user...${err}`)
@@ -410,7 +410,7 @@ client.on ("message"  , async message  =>  {
          .setTimestamp()
          .setFooter("Dev: RLX | BlazingDragon" , 'https://i.imgur.com/5O2LozU.jpg')
         message.channel.send(mutedst)  
-        client.channels.cache.get('727772378268172340').send(mutedst)
+        client.channels.cache.get('742395668362035211').send(mutedst)
 
 
       setTimeout(function(){
@@ -435,7 +435,7 @@ client.on ("message"  , async message  =>  {
             .setTimestamp()
             .setFooter("Dev: RLX | BlazingDragon" , 'https://i.imgur.com/5O2LozU.jpg')
         message.channel.send(unmuted)  
-        client.channels.cache.get('727772378268172340').send(unmuted)
+        client.channels.cache.get('742395668362035211').send(unmuted)
 
 
       },ms(time));
