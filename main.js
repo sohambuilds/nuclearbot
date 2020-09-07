@@ -140,7 +140,14 @@ client.on ("message"  , async message  =>  {
 
 
         }).then(channel =>{
-            channel.send(`<@&653115183950200833>, <@${message.author.id}> needs help,<:blob:733588221455499315>.. <@${message.author.id}> ,if you are here to claim tournament prizes,please provide ur **PayTm** number and **QR Code**`)
+            channel.send(`<@551936470458433536>, <@${message.author.id}> needs help!!<@${message.author.id}>  if you are here for tourney payment, Please Fill These Details
+            •Your Paytm Name
+            •Your Paytm Number
+            •Your In Game Name
+            •Tourney Winning Date
+            •Tourney Number (example- SSD-42, DSD-09, 3v3-04)
+            •Total Amount Won
+            •Your Paytm QR Code`)
               message.channel.send(`Created a new support/payment thread in <#${channel.id}> <:blob:733588221455499315>`)
         })
 
