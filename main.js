@@ -106,33 +106,18 @@ client.on ("message"  , async message  =>  {
                 allow:  ['VIEW_CHANNEL']
 
             },
-            {
-                id: '653115183950200833',
-                allow: ['VIEW_CHANNEL']
 
-            },
-            {
-                id: '730313466094813225',
-                allow: ['VIEW_CHANNEL']
 
             },
             {
                 id: '551936470458433536',
                 allow: ['VIEW_CHANNEL']
-            },
-            {  
-                id: '732818401516453959',
-                allow: ['VIEW_CHANNEL']
-
-
-            },
-            {
-                id: '732818652059140127',
-                allow: ['VIEW_CHANNEL']
-
-
-
             }
+          
+            
+
+
+            
 
 
           ]
