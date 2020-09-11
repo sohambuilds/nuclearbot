@@ -106,9 +106,6 @@ client.on ("message"  , async message  =>  {
                 allow:  ['VIEW_CHANNEL']
 
             },
-
-
-            },
             {
                 id: '551936470458433536',
                 allow: ['VIEW_CHANNEL']
